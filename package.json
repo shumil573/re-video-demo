@@ -2,6 +2,8 @@
   "name": "re-video-demo",
   "version": "0.1.0",
   "private": true,
+  "gh-pages": "react-scripts build && gh-pages -d build",
+  "homepage": "https://shumil573.github.io/re-video-demo/",
   "dependencies": {
     "@emotion/react": "^11.10.4",
     "@emotion/styled": "^11.10.4",
@@ -39,5 +41,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
   }
 }
